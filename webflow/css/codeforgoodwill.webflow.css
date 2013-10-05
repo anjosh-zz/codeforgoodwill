@@ -1,0 +1,333 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #333;
+  font-size: 12px;
+  line-height: 20px;
+}
+h1 {
+  margin-top: 10px;
+  margin-bottom: 27px;
+  font-family: Bitter, serif;
+  color: black;
+  font-size: 36px;
+  line-height: 41px;
+  font-weight: 700;
+  text-align: center;
+  text-shadow: rgba(0, 0, 0, 0.30) 0px 4px 0px;
+}
+h2 {
+  margin: 10px 0px;
+  font-family: Bitter, serif;
+  color: #300;
+  font-size: 24px;
+  line-height: 25px;
+  font-weight: 400;
+  text-align: center;
+}
+h3 {
+  margin: 10px 0px;
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 700;
+}
+h4 {
+  margin: 10px 0px;
+  font-size: 18px;
+  line-height: 24px;
+  font-weight: 700;
+}
+h5 {
+  margin: 10px 0px;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 700;
+}
+h6 {
+  margin: 10px 0px;
+  font-size: 12px;
+  line-height: 18px;
+  font-weight: 700;
+}
+p {
+  margin-bottom: 5px;
+  font-family: Bitter, serif;
+  color: #9c9088;
+}
+.button {
+  display: block;
+  width: 50%;
+  margin: 10px auto;
+  padding: 15px;
+  border: 2px solid #cc0700;
+  border-radius: 7px;
+  background-color: #cc0700;
+  background-image: -webkit-linear-gradient(#fc524c, #cc0700);
+  background-image: -o-linear-gradient(#fc524c, #cc0700);
+  background-image: linear-gradient(#fc524c, #cc0700);
+  box-shadow: rgba(255, 255, 255, 0.45) 0px 1px 0px 0px inset;
+  font-family: Montserrat, sans-serif;
+  color: white;
+  font-size: 19px;
+  text-align: center;
+  text-decoration: none;
+}
+.button:hover {
+  background-image: -webkit-linear-gradient(#f78986, #f01811);
+  background-image: -o-linear-gradient(#f78986, #f01811);
+  background-image: linear-gradient(#f78986, #f01811);
+  box-shadow: rgba(255, 255, 255, 0.45) 0px 1px 0px 0px inset;
+}
+.header {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+.jumbo {
+  padding-top: 47px;
+  padding-bottom: 47px;
+  border-top: 4px solid #300;
+  background-color: #8c8c8c;
+  background-image: url(../images/background-image.jpg);
+  background-position: 50% 50%;
+  background-size: cover;
+}
+.subtitle {
+  font-family: Bitter, serif;
+  color: white;
+  font-size: 17px;
+}
+.call-now {
+  margin-top: 20px;
+  font-family: Montserrat, sans-serif;
+  font-size: 19px;
+  text-align: right;
+}
+.testimonials {
+  padding-top: 24px;
+  padding-bottom: 24px;
+  background-color: #300;
+}
+.quote {
+  font-family: Bitter, serif;
+  color: #a19181;
+  font-size: 17px;
+}
+.content {
+  padding-top: 48px;
+  padding-bottom: 48px;
+}
+.wrapper {
+  display: block;
+  width: 80%;
+  margin-top: -195px;
+  margin-left: 39px;
+  padding: 21px;
+  border: 7px solid #cc0700;
+  border-radius: 11px;
+  background-color: #f2efeb;
+  box-shadow: rgba(0, 0, 0, 0.34) 0px 0px 11px 0px;
+}
+.call-to-action {
+  margin-top: 0px;
+  margin-bottom: 6px;
+  font-family: Montserrat, sans-serif;
+  color: #cc0700;
+  font-size: 27px;
+  line-height: 22px;
+}
+.note {
+  margin-bottom: 13px;
+  color: #7a6e61;
+  font-size: 14px;
+  line-height: 18px;
+}
+.note.share {
+  font-style: italic;
+  text-align: center;
+}
+.footer {
+  padding-top: 35px;
+  padding-bottom: 35px;
+  border-top: 3px solid #bdb5af;
+  background-color: #d9d1cb;
+}
+.copyright {
+  font-family: Bitter, serif;
+  color: #300;
+  font-size: 15px;
+}
+.copyright.info {
+  color: rgba(51, 0, 0, 0.31);
+}
+@media (max-width: 991px) {
+  h1 {
+    margin-top: 0px;
+    margin-bottom: 16px;
+    font-size: 32px;
+    line-height: 37px;
+    text-align: center;
+    text-shadow: rgba(0, 0, 0, 0.30) 0px 4px 0px;
+  }
+  h2 {
+    text-align: center;
+  }
+  .button {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .jumbo {
+    background-image: url(../images/background-image.jpg);
+    background-position: 50% 50%;
+  }
+  .subtitle {
+    font-size: 16px;
+  }
+  .wrapper {
+    width: 90%;
+    margin-top: -162px;
+    margin-left: 28px;
+    box-shadow: rgba(0, 0, 0, 0.34) 0px 0px 11px 0px;
+  }
+  .call-to-action {
+    font-size: 26px;
+    line-height: 29px;
+  }
+}
+@media (max-width: 767px) {
+  .button {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  .header {
+    padding-top: 7px;
+    padding-bottom: 7px;
+    text-align: center;
+  }
+  .jumbo {
+    background-image: url(../images/background-image.jpg);
+    background-position: 50% 50%;
+    text-align: center;
+  }
+  .call-now {
+    margin-bottom: 21px;
+    text-align: center;
+  }
+  .testimonials {
+    padding-right: 9px;
+    padding-left: 9px;
+    text-align: center;
+  }
+  .content {
+    padding-top: 24px;
+    padding-bottom: 24px;
+    text-align: center;
+  }
+  .wrapper {
+    width: 100%;
+    margin-top: 22px;
+    margin-left: 0px;
+  }
+  .footer {
+    text-align: center;
+  }
+}
+@media (max-width: 479px) {
+  body {
+    overflow: visible;
+    height: auto;
+    background-color: rgba(0, 0, 0, 0);
+  }
+  h1 {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    float: none;
+    color: black;
+    font-size: 30px;
+    text-align: center;
+  }
+  h2 {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    float: none;
+    text-align: center;
+  }
+  .button {
+    display: block;
+    width: 50%;
+    margin-right: auto;
+    margin-left: auto;
+    background-image: -webkit-linear-gradient(#fc524c, #cc0700);
+    background-image: -o-linear-gradient(#fc524c, #cc0700);
+    background-image: linear-gradient(#fc524c, #cc0700);
+    box-shadow: rgba(255, 255, 255, 0.45) 0px 1px 0px 0px inset;
+  }
+  .jumbo {
+    padding-top: 147px;
+    background-image: url(../images/goodwill_logo.JPG);
+    background-position: 50% 50%;
+  }
+  .profilepic {
+    width: 20%;
+    height: 20%;
+    margin: 20px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    float: left;
+    border: 1px solid black;
+    background-image: url(../images/example-bg.png);
+    background-position: 50% 50%;
+    background-size: 125px;
+    background-repeat: no-repeat no-repeat;
+  }
+  .profilename {
+    margin-top: 40px;
+    float: left;
+    font-family: Bitter, serif;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: left;
+  }
+  .nuggets {
+    margin-top: -1px;
+    margin-right: 0px;
+    float: right;
+    color: #ffec3d;
+    font-size: 14px;
+    font-weight: 700;
+    text-shadow: black 1px 1px 2px;
+  }
+  .nuggets.profilenuggets {
+    margin-top: 40px;
+    margin-right: 19px;
+    font-size: 16px;
+  }
+  .badge {
+    display: block;
+    height: auto;
+    margin-top: 77px;
+    margin-right: 1px;
+    margin-left: 9px;
+    float: right;
+  }
+  .history {
+    border-style: solid;
+    border-width: 1px;
+    background-color: #bab5eb;
+    box-shadow: black 1px 1px 3px 0px;
+  }
+  .historyfeed {
+    font-family: Impact, Charcoal, sans-serif;
+    color: black;
+    font-weight: 700;
+    text-align: center;
+  }
+  .historynuggets {
+    float: none;
+    font-size: 13px;
+    text-align: center;
+  }
+}
